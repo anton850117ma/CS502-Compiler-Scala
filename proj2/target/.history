@@ -1,0 +1,60 @@
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/anton/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/anton/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+run "1"
+run "177"
+run "12"
+run "1+2*3"
+run "555"
+run "1+2*3
+run "1+2*3"
+run "2*5-4"
+run "2*3"
+run "6*7+3"
+run "6*6-3"
+run "1+2*3"
+run "val gg"
+run "gg"
+run "(1+2)*(6-2)"
+run "if"
+run "if(a>b)else a=b"
+run "val"
+run "val gg"
+run "val gg = 10;"
+run "val gg = 10; gg = gg-1"
+run "gg+gg:
+run "gg+gg"
+run "val gg = 10;" 
+run "gg = gg"
+run "if(gg==0)gg = 10 else gg = 5"
+run "if"
+run "gg"
+run "val gg = 10-5; 5+10"
+run "val gg = 10-5; gg = 3"
+run "val gg = 10-5; gg"
+run "if(gg==0)gg = 10 else gg = 5"
+run "val gg = 10; if(gg==10)gg = gg-1 else gg= gg+1"
+run "val gg=10; if(gg>0)1 else 0"
+test
+run "2*5*9*3"
+test
+run "while(5>4)0;1"
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/anton/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/anton/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+test
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/anton/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/anton/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+test
+run "1+2"
+test
+run "val = 5+1"
+run "val x = 5+1"
+test
+run "1+2"
+test
+run "1+2*3"
+run "var x=5;while(x>0)x=x-1;x"
+test
+run "var x=5;while(x>0)x=x-1;x"
+test
+run "1+5*2"
+run "var x=5;while(x>0)x=x-1;x"
+test
+run "var x=5;while(x>0)x=x-1;x"
+clean

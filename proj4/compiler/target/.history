@@ -1,0 +1,31 @@
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/charles09880/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/charles09880/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+test
+case S.VarDec(name, _, rhs, body) =>
+        val s = Symbol.fresh("s")
+        C.LetL(s, IntLit(1), ctx(s))
+        C.LetP(name, MiniScalaBlockAlloc(242), Seq(s), ctx(name))
+        val z = Symbol.fresh("z")
+        C.LetL(z, IntLit(0), ctx(z))
+        val d = Symbol.fresh("d")
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/charles09880/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/charles09880/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+run "def f(x: Int): Int = {while (x < 1) (); x}; f(1); 0"
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/charles09880/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/charles09880/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+test
+quit
+test
+resr
+test
+run "def printString(s: String):Unit = {  var idx = 0;  while (idx < 0) {    idx = idx + 1  };  ()}; printString("OK");0"
+run "def printString(s: String):Unit = {  var idx = 0;  while (idx < 0) {    printChar(s(idx));    idx = idx + 1  };  ()};def printChar(c: Char): Unit = putchar(c.toInt);printString("OK"); printChar('a');0"
+run c\:test.scala
+run c:\test.scala
+test
+run c:\test.scala
+test
+run c:\test.scala
+test
+run c:\test.scala
+test
+run c:\test.scala
+test
+clean

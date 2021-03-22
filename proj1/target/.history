@@ -1,0 +1,27 @@
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/anton/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/anton/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+run "-1"
+run "-9*9"
+run "-9*(-9)"
+"-7"
+run "-7"
+run "(3+5)"
+run "9*(-9)"
+run "3*4"
+run "9*(-2)"
+run "2*3*4*5"
+run "6/(-2)"
+run "120/5/4/3"
+run "8/2/2"
+test
+run "4*5"
+run "8/2"
+run "-4"
+test
+run "8/2"
+;set _root_.scala.collection.Seq(historyPath := None,shellPrompt := { _ => "" },SettingKey[_root_.scala.Option[_root_.sbt.File]]("sbtStructureOutputFile") in _root_.sbt.Global := _root_.scala.Some(_root_.sbt.file("C:/Users/anton/AppData/Local/Temp/sbt-structure.xml")),SettingKey[_root_.java.lang.String]("sbtStructureOptions") in _root_.sbt.Global := "download, resolveClassifiers");apply -cp "C:/Users/anton/.IdeaIC2018.3/config/plugins/Scala/launcher/sbt-structure-1.0.jar" org.jetbrains.sbt.CreateTasks;*/*:dumpStructure
+clean
+turnin -c cs502 -p proj1 proj1
+run "3*(1+5)"
+run "3*(1+5"
+clean
+turnin -c cs502 -p proj1 proj1
